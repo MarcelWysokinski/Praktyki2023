@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 1 prakatyki</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        Podaj liczbe 1: <input type="number" name="liczba1"><br>
+        Podaj liczbe 2: <input type="number" name="liczba2"><br>
+
+        <input type="button" value="Dodawanie" onclick="oblicz(this.form, 'dodawanie')"><br>
+        <input type="button" value="Odejmowanie" onclick="oblicz(this.form, 'odejmowanie')"><br>
+        <input type="button" value="Mnozenie" onclick="oblicz(this.form, 'mnozenie')"><br>
+        <input type="button" value="Dzielenie" onclick="oblicz(this.form, 'dzielenie')"><br>
+
+        <p id="wynik"></p>
+    </form>
+</body>
+</html>
